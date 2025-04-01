@@ -4,12 +4,15 @@
     position: fixed;
     left: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.192);
+    background-color: rgba(0, 0, 0, 0.211);
     display: grid;
     place-items: center;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.25s;
 }
 
-.modal_body{
+.modal_conteudo{
     background-color: #1D1D1D;
     color: white;
     height: 50vh;
@@ -18,9 +21,6 @@
     border-radius: 10px;
     text-align: center;
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.788);
-}
-
-.modal_conteudo{
     place-items: center;
 }
 
@@ -46,4 +46,8 @@
 #icone_email{
     color: #E9514F;
 }
+
+
+
+
 
