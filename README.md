@@ -28,7 +28,5 @@ Este repositório apresenta um **modal interativo e responsivo**, criado com **H
 
 ---
 
-## 📂 Estrutura do Projeto
-
 
 
