@@ -18,7 +18,7 @@
     height: 50vh;
     width: 70vh;
     padding: 40px;
-    border-radius: 10px;
+    border-radius: 50px;
     text-align: center;
     box-shadow: 0 0 10px 0 rgba(255, 255, 255, 0.788);
     display: flex;
@@ -71,7 +71,7 @@
 /* 🔵 Celulares (até 576px) */
 @media screen and (max-width: 576px) {
     .modal_conteudo {
-        width: 95%;
+        width: 85%;
         height: auto;
         padding: 20px 15px;
     }
@@ -95,6 +95,14 @@
     }
 }
 
+
+.estrutura_cards{
+    padding: 3vh;
+}
+
+.redonda{
+    border-radius: 40px;
+}
 
 
 
